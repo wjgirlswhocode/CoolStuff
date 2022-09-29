@@ -33,7 +33,7 @@ public class MyDrawing {
 		pen.up(); //lift the pen tip up
 		pen.forward(110);
 		pen.setDirection(90); //point the pen up
-		pen.down();
+		pen.down(); //put the pen tip down
 		pen.setColor(Color.blue);
 		for (int i = 0; i < 3; i++) { //draw the 3 sides of the triangle
 			pen.forward(80);
