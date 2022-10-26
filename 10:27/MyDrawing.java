@@ -11,9 +11,10 @@ public class MyDrawing {
 	private DrawingTool pen = new DrawingTool(sketchPad);
 	
 	private void drawStuff() {
-		pen.forward(100);
-		pen.turnRight(90);
-		pen.forward(100);
+		for (int i = 0; i < 4; i++) {
+			pen.forward(100);
+			pen.turnRight(90);
+		}
 	}
 	
 	public static void main(String[] args) {
