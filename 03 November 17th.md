@@ -5,11 +5,11 @@ Here are the materials for today! We'll explain what you need to do with the stu
 ## Online Processing Editor
 [https://hello.processing.org/editor/#editor](https://hello.processing.org/editor/#editor)
 
-![image](https://imgur.com/uggxDeW.png)
+![https://imgur.com/uggxDeW.png](https://imgur.com/uggxDeW.png)
 
 
 ## Demo code
-```Java
+```java
 //setup is called once when the program begins
 void setup() {
   size(640, 360); //sets the width and height of the application window in pixels
