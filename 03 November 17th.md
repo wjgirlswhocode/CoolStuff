@@ -28,7 +28,7 @@ void draw() {
 }
 ```
 
-<a id="spinningsquares" href="#spinningsquares"><img alt="spinningsquares" src="https://imgur.com/wCr45de.gif" /></a>
+<a id="spinning squares" href="#spinning squares"><img alt="spinning squares" src="https://imgur.com/wCr45de.gif" /></a>
 
 <details>
 	<summary>x</summary> 
