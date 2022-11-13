@@ -27,9 +27,8 @@ void draw() {
   rect(inverseX, height/2, inverseY/2 + 10, inverseY/2 + 10);
 }
 ```
-[![spinning squares](https://imgur.com/wCr45de.gif)](#)
 
-<a id="go_middle" href="#go_middle">Go Middle</a>
+<a id="spinningsquares" href="#spinningsquares"><img alt="spinningsquares" src="https://imgur.com/wCr45de.gif" /></a>
 
 <details>
 	<summary>x</summary> 
