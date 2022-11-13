@@ -27,7 +27,7 @@ void draw() {
   rect(inverseX, height/2, inverseY/2 + 10, inverseY/2 + 10);
 }
 ```
-[![](https://imgur.com/wCr45de.gif)]
+[![](https://imgur.com/wCr45de.gif)]()
 
 <details>
 	<summary>x</summary> 
