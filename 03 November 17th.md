@@ -27,9 +27,7 @@ void draw() {
   rect(inverseX, height/2, inverseY/2 + 10, inverseY/2 + 10);
 }
 ```
-![test](https://imgur.com/a/OTFZIlx.mp3)
-https://imgur.com/OTFZIlx.mp3
-<video src='https://imgur.com/a/OTFZIlx.mp3' width=180/></video>
+![test](https://imgur.com/OTFZIlx.mp3)
 
 <details>
 	<summary>x</summary> 
