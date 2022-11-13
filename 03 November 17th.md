@@ -5,7 +5,7 @@ Here are the materials for today! We'll explain what you need to do with the stu
 ## Online Processing Editor
 [https://hello.processing.org/editor/#editor](https://hello.processing.org/editor/#editor)
 
-[![](https://imgur.com/uggxDeW.png)](https://hello.processing.org/editor/#editor)
+[![Processing Editor](https://imgur.com/uggxDeW.png)](https://hello.processing.org/editor/#editor)
 
 
 ## Demo code
@@ -27,10 +27,7 @@ void draw() {
   rect(inverseX, height/2, inverseY/2 + 10, inverseY/2 + 10);
 }
 ```
-
-<picture>
-  <img alt="spinning squares" src="https://imgur.com/wCr45de.gif">
-</picture>
+[![](https://imgur.com/wCr45de.gif)](#)
 
 <details>
 	<summary>x</summary> 
