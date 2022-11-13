@@ -27,7 +27,7 @@ void draw() {
   rect(inverseX, height/2, inverseY/2 + 10, inverseY/2 + 10);
 }
 ```
-[![](https://imgur.com/wCr45de.gif)](#)
+<a>![spinning squares](https://imgur.com/wCr45de.gif)</a>
 
 <details>
 	<summary>x</summary> 
