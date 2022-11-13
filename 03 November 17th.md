@@ -5,7 +5,7 @@ Here are the materials for today! We'll explain what you need to do with the stu
 ## Online Processing Editor
 [https://hello.processing.org/editor/#editor](https://hello.processing.org/editor/#editor)
 
-![![https://imgur.com/uggxDeW.png](https://imgur.com/uggxDeW.png)](https://imgur.com/uggxDeW.png)
+![![](https://hello.processing.org/editor/#editor)](https://imgur.com/uggxDeW.png)
 
 
 ## Demo code
