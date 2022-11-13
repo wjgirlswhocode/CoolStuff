@@ -9,7 +9,7 @@ Here are the materials for today! We'll explain what you need to do with the stu
 
 
 ## Demo code
-```java
+```Java
 //setup is called once when the program begins
 void setup() {
   size(640, 360); //sets the width and height of the application window in pixels
