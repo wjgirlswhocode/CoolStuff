@@ -29,9 +29,7 @@ void draw() {
 ```
 [![spinning squares](https://imgur.com/wCr45de.gif)](#)
 
-<a href="#go_middle">Go Middle</a>
-
-<div id="go_middle">Hello There</div>
+<a id="go_middle" href="#go_middle">Go Middle</a>
 
 <details>
 	<summary>x</summary> 
