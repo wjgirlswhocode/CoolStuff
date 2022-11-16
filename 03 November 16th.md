@@ -176,6 +176,6 @@ void draw() {
 <details>
 	<summary>6</summary>
 	Hey! All of the code above was taken from <a href="http://learningprocessing.com/examples/">here</a>. We selected cool ones that you can understand from what you've learned so far, but there's some even cooler but really complicated stuff!
-	<p>For example, check out 14-17 Nested Push Pop:</p>
+	<p>For example, check out 14-17 Nested Push Pop</p>
 	<a id="nested" href="#nested"><img alt="nested" src="https://imgur.com/6wGUpqC.gif" /></a>
 </details>
