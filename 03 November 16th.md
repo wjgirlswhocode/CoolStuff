@@ -84,90 +84,90 @@ void draw() {
 <details>
 	<summary>3</summary>
 
-  ```java
-	void setup() {
-	  size(480, 270);
-	  background(255);
-	}
+```java
+void setup() {
+  size(480, 270);
+  background(255);
+}
 	
-	void draw() {
-	  stroke(0);
+void draw() {
+  stroke(0);
 	
-	  // Draw a line from previous mouse location to current mouse location.
-	  line(pmouseX, pmouseY, mouseX, mouseY);
-	}
-  ```
+  // Draw a line from previous mouse location to current mouse location.
+  line(pmouseX, pmouseY, mouseX, mouseY);
+}
+```
 </details>
 <details>
 	<summary>4</summary>
 
-  ```java
-	void setup() {
-	  size(480, 270);
-	  background(255);
-	  stroke(0);
-	}
+```java
+void setup() {
+  size(480, 270);
+  background(255);
+  stroke(0);
+}
 	
-	// Whenever a user clicks the mouse the code written inside mousePressed() is executed
-	void mousePressed() {
-	  fill(175);
-	  rectMode(CENTER);
-	  rect(mouseX, mouseY, 16, 16);
-	}
+// Whenever a user clicks the mouse the code written inside mousePressed() is executed
+void mousePressed() {
+  fill(175);
+  rectMode(CENTER);
+  rect(mouseX, mouseY, 16, 16);
+}
 	
-	// Whenever a user presses a key the code written inside keyPressed() is executed
-	void keyPressed() {
-	  background(255);
-	}
-  ```
+// Whenever a user presses a key the code written inside keyPressed() is executed
+void keyPressed() {
+  background(255);
+}
+```
 </details>
 <details>
 	<summary>5</summary>
 
-   ```java	
-	float x = 240;   // x location of square
-	float y = 0;     // y location of square
+```java	
+float x = 240;   // x location of square
+float y = 0;     // y location of square
 	
-	float speed = 0;   // speed of square
+float speed = 0;   // speed of square
 	
-	// A new variable, for gravity (i.e. acceleration).   
-	// We use a relatively small number (0.1) because 
-	// this accelerations accumulates over time, increasing the speed.   
-	// Try changing this number to 2.0 and see what happens.
-	float gravity = 0.1;  
+// A new variable, for gravity (i.e. acceleration).   
+// We use a relatively small number (0.1) because 
+// this accelerations accumulates over time, increasing the speed.   
+// Try changing this number to 2.0 and see what happens.
+float gravity = 0.1;  
 	
-	void setup() {
-	  size(480, 270);
-	}
+void setup() {
+  size(480, 270);
+}
 	
-	void draw() {
-	  background(255);
+void draw() {
+  background(255);
 	
-	  // Display the square
-	  fill(175);
-	  stroke(0);
-	  rectMode(CENTER);
-	  rect(x, y, 10, 10);
+  // Display the square
+  fill(175);
+  stroke(0);
+  rectMode(CENTER);
+  rect(x, y, 10, 10);
 	
-	  // Add speed to location.
-	  y = y + speed;
+  // Add speed to location.
+  y = y + speed;
 	
-	  // Add gravity to speed.
-	  speed = speed + gravity;
+  // Add gravity to speed.
+  speed = speed + gravity;
 	
-	  // If square reaches the bottom
-	  // Reverse speed
-	  if (y > height) {
-	    // Multiplying by -0.95 instead of -1 slows the square 
-	    // down each time it bounces (by decreasing speed).  
-	    // This is known as a "dampening" effect and is a more 
-	    // realistic simulation of the real world (without it, 
-	    // a ball would bounce forever).
-	    speed = speed * -0.95;
-	    y = height;
-	  }
-	}
-   ```
+  // If square reaches the bottom
+  // Reverse speed
+  if (y > height) {
+    // Multiplying by -0.95 instead of -1 slows the square 
+    // down each time it bounces (by decreasing speed).  
+    // This is known as a "dampening" effect and is a more 
+    // realistic simulation of the real world (without it, 
+    // a ball would bounce forever).
+    speed = speed * -0.95;
+    y = height;
+  }
+}
+```
 </details>
 <details>
 	<summary>6</summary>
