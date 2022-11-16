@@ -35,7 +35,7 @@ void draw() {
 	<summary>1</summary>
 	Processing will treat code not inside any method as if it were in the setup() method!
 
-  ```java
+ ```java
 	size(480, 270);
 	background(0);
 	noStroke();
@@ -59,7 +59,7 @@ void draw() {
 	// 25% opacity.
 	fill(255, 0, 0, 63);
 	rect(0, 150, 480, 40);
-  ```
+ ```
 </details>
 <details>
 	<summary>2</summary>
