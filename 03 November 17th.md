@@ -33,7 +33,8 @@ void draw() {
 ## More code to try :)
 <details>
 	<summary>1</summary>
-	
+	Processing will treat code not inside any method as if it were in the setup() method!
+
   ```java
 size(480, 270);
 background(0);
@@ -59,4 +60,121 @@ rect(0, 100, 480, 40);
 fill(255, 0, 0, 63);
 rect(0, 150, 480, 40);
   ```
+</details>
+<details>
+	<summary>2</summary>
+
+  ```java
+void setup() {
+  size(480, 270);
+  background(50);
+  stroke(255);
+}
+
+void draw() {
+  background(50);
+  stroke(255);
+  // frameCount is the number of frames that have passed since the program began
+  fill(frameCount / 2);
+  rectMode(CENTER);
+  rect(width/2, height/2, width/2, height/2);
+}
+
+  ```
+</details>
+<details>
+	<summary>3</summary>
+
+  ```java
+void setup() {
+  size(480, 270);
+  background(255);
+}
+
+void draw() {
+  stroke(0);
+
+  // Draw a line from previous mouse location to current mouse location.
+  line(pmouseX, pmouseY, mouseX, mouseY);
+}
+  ```
+</details>
+<details>
+	<summary>4</summary>
+
+  ```java
+void setup() {
+  size(480, 270);
+  background(255);
+  stroke(0);
+}
+
+// Whenever a user clicks the mouse the code written inside mousePressed() is executed
+void mousePressed() {
+  fill(175);
+  rectMode(CENTER);
+  rect(mouseX, mouseY, 16, 16);
+}
+
+// Whenever a user presses a key the code written inside keyPressed() is executed
+void keyPressed() {
+  background(255);
+}
+  ```
+</details>
+<details>
+	<summary>5</summary>
+
+  ```java
+// Example 5-9: Simple Gravity
+
+float x = 240;   // x location of square
+float y = 0;     // y location of square
+
+float speed = 0;   // speed of square
+
+// A new variable, for gravity (i.e. acceleration).   
+// We use a relatively small number (0.1) because 
+// this accelerations accumulates over time, increasing the speed.   
+// Try changing this number to 2.0 and see what happens.
+float gravity = 0.1;  
+
+void setup() {
+  size(480, 270);
+}
+
+void draw() {
+  background(255);
+
+  // Display the square
+  fill(175);
+  stroke(0);
+  rectMode(CENTER);
+  rect(x, y, 10, 10);
+
+  // Add speed to location.
+  y = y + speed;
+
+  // Add gravity to speed.
+  speed = speed + gravity;
+
+  // If square reaches the bottom
+  // Reverse speed
+  if (y > height) {
+    // Multiplying by -0.95 instead of -1 slows the square 
+    // down each time it bounces (by decreasing speed).  
+    // This is known as a "dampening" effect and is a more 
+    // realistic simulation of the real world (without it, 
+    // a ball would bounce forever).
+    speed = speed * -0.95;
+    y = height;
+  }
+}
+  ```
+</details>
+<details>
+	<summary>6</summary>
+	psst.. all of the code above was taken from [here](http://learningprocessing.com/examples/). We selected cool ones that you can understand from what you've learned so far, but here's a sneak peak at some really complicated stuff
+	10-7 Many Drops
+	<a id="rain" href="#rain"><img alt="rain" src="https://imgur.com/m2q2NAy.gif" /></a>
 </details>
