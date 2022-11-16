@@ -174,7 +174,5 @@ void draw() {
 </details>
 <details>
 	<summary>6</summary>
-	psst.. all of the code above was taken from [here](http://learningprocessing.com/examples/). We selected cool ones that you can understand from what you've learned so far, but here's a sneak peak at some really complicated stuff
-	10-7 Many Drops
-	<a id="rain" href="#rain"><img alt="rain" src="https://imgur.com/m2q2NAy.gif" /></a>
+	psst.. all of the code above was taken from [here](http://learningprocessing.com/examples/). We selected cool ones that you can understand from what you've learned so far, but there's some even cooler but really complicated stuff!
 </details>
