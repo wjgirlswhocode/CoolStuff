@@ -36,50 +36,50 @@ void draw() {
 	Processing will treat code not inside any method as if it were in the setup() method!
 
 ```java
-	size(480, 270);
-	background(0);
-	noStroke();
-		
-	// No fourth argument means 100% opacity.
-	fill(0, 0, 255);
-	rect(0, 0, 240, 200);
-		
-	// 255 means 100% opacity.
-	fill(255, 0, 0, 255);
-	rect(0, 0, 480, 40);
-		
-	// 75% opacity.
-	fill(255, 0, 0, 191);
-	rect(0, 50, 480, 40);
-		
-	// 55% opacity.
-	fill(255, 0, 0, 127);
-	rect(0, 100, 480, 40);
-		
-	// 25% opacity.
-	fill(255, 0, 0, 63);
-	rect(0, 150, 480, 40);
+size(480, 270);
+background(0);
+noStroke();
+	
+// No fourth argument means 100% opacity.
+fill(0, 0, 255);
+rect(0, 0, 240, 200);
+	
+// 255 means 100% opacity.
+fill(255, 0, 0, 255);
+rect(0, 0, 480, 40);
+	
+// 75% opacity.
+fill(255, 0, 0, 191);
+rect(0, 50, 480, 40);
+	
+// 55% opacity.
+fill(255, 0, 0, 127);
+rect(0, 100, 480, 40);
+	
+// 25% opacity.
+fill(255, 0, 0, 63);
+rect(0, 150, 480, 40);
 ```
 </details>
 <details>
 	<summary>2</summary>
 
-  ```java
-	void setup() {
-	  size(480, 270);
-	  background(50);
-	  stroke(255);
-	}
+```java
+void setup() {
+  size(480, 270);
+  background(50);
+  stroke(255);
+}
 	
-	void draw() {
-	  background(50);
-	  stroke(255);
-	  // frameCount is the number of frames that have passed since the program began
-	  fill(frameCount / 2);
-	  rectMode(CENTER);
-	  rect(width/2, height/2, width/2, height/2);
-	}
-  ```
+void draw() {
+  background(50);
+  stroke(255);
+  // frameCount is the number of frames that have passed since the program began
+  fill(frameCount / 2);
+  rectMode(CENTER);
+  rect(width/2, height/2, width/2, height/2);
+}
+```
 </details>
 <details>
 	<summary>3</summary>
