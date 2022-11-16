@@ -180,4 +180,7 @@ void draw() {
 </details>
 
 ## Challenge
+<details>
+	<summary>Are you ready?</summary>
 Make a square and if you click inside of it, the square changes to one color and if you click outside of it, it changes to another color
+</details>
