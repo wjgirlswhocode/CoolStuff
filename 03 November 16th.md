@@ -9,7 +9,6 @@ Here are the materials for today! We'll explain what you need to do with the stu
 
 
 ## Demo code
-psst.. you can click the button at the top right of the code block below to copy the code to your clipboard!
 
 ```java
 //setup is called once when the program begins
