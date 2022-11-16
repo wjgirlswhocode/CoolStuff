@@ -36,96 +36,95 @@ void draw() {
 	Processing will treat code not inside any method as if it were in the setup() method!
 
   ```java
-size(480, 270);
-background(0);
-noStroke();
-	
-// No fourth argument means 100% opacity.
-fill(0, 0, 255);
-rect(0, 0, 240, 200);
-	
-// 255 means 100% opacity.
-fill(255, 0, 0, 255);
-rect(0, 0, 480, 40);
-	
-// 75% opacity.
-fill(255, 0, 0, 191);
-rect(0, 50, 480, 40);
-	
-// 55% opacity.
-fill(255, 0, 0, 127);
-rect(0, 100, 480, 40);
-	
-// 25% opacity.
-fill(255, 0, 0, 63);
-rect(0, 150, 480, 40);
+	size(480, 270);
+	background(0);
+	noStroke();
+		
+	// No fourth argument means 100% opacity.
+	fill(0, 0, 255);
+	rect(0, 0, 240, 200);
+		
+	// 255 means 100% opacity.
+	fill(255, 0, 0, 255);
+	rect(0, 0, 480, 40);
+		
+	// 75% opacity.
+	fill(255, 0, 0, 191);
+	rect(0, 50, 480, 40);
+		
+	// 55% opacity.
+	fill(255, 0, 0, 127);
+	rect(0, 100, 480, 40);
+		
+	// 25% opacity.
+	fill(255, 0, 0, 63);
+	rect(0, 150, 480, 40);
   ```
 </details>
 <details>
 	<summary>2</summary>
 
   ```java
-void setup() {
-  size(480, 270);
-  background(50);
-  stroke(255);
-}
-
-void draw() {
-  background(50);
-  stroke(255);
-  // frameCount is the number of frames that have passed since the program began
-  fill(frameCount / 2);
-  rectMode(CENTER);
-  rect(width/2, height/2, width/2, height/2);
-}
-
+	void setup() {
+	  size(480, 270);
+	  background(50);
+	  stroke(255);
+	}
+	
+	void draw() {
+	  background(50);
+	  stroke(255);
+	  // frameCount is the number of frames that have passed since the program began
+	  fill(frameCount / 2);
+	  rectMode(CENTER);
+	  rect(width/2, height/2, width/2, height/2);
+	}
   ```
 </details>
 <details>
 	<summary>3</summary>
 
   ```java
-void setup() {
-  size(480, 270);
-  background(255);
-}
-
-void draw() {
-  stroke(0);
-
-  // Draw a line from previous mouse location to current mouse location.
-  line(pmouseX, pmouseY, mouseX, mouseY);
-}
+	void setup() {
+	  size(480, 270);
+	  background(255);
+	}
+	
+	void draw() {
+	  stroke(0);
+	
+	  // Draw a line from previous mouse location to current mouse location.
+	  line(pmouseX, pmouseY, mouseX, mouseY);
+	}
   ```
 </details>
 <details>
 	<summary>4</summary>
 
   ```java
-void setup() {
-  size(480, 270);
-  background(255);
-  stroke(0);
-}
-
-// Whenever a user clicks the mouse the code written inside mousePressed() is executed
-void mousePressed() {
-  fill(175);
-  rectMode(CENTER);
-  rect(mouseX, mouseY, 16, 16);
-}
-
-// Whenever a user presses a key the code written inside keyPressed() is executed
-void keyPressed() {
-  background(255);
-}
+	void setup() {
+	  size(480, 270);
+	  background(255);
+	  stroke(0);
+	}
+	
+	// Whenever a user clicks the mouse the code written inside mousePressed() is executed
+	void mousePressed() {
+	  fill(175);
+	  rectMode(CENTER);
+	  rect(mouseX, mouseY, 16, 16);
+	}
+	
+	// Whenever a user presses a key the code written inside keyPressed() is executed
+	void keyPressed() {
+	  background(255);
+	}
   ```
 </details>
 <details>
 	<summary>5</summary>
 
-  ```java	
+   ```java	
 	float x = 240;   // x location of square
 	float y = 0;     // y location of square
 	
@@ -168,7 +167,7 @@ void keyPressed() {
 	    y = height;
 	  }
 	}
-  ```
+   ```
 </details>
 <details>
 	<summary>6</summary>
