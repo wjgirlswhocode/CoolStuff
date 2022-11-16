@@ -125,7 +125,7 @@ void keyPressed() {
 <details>
 	<summary>5</summary>
 
-    ```java	
+   ```java	
 	float x = 240;   // x location of square
 	float y = 0;     // y location of square
 	
@@ -168,7 +168,7 @@ void keyPressed() {
 	    y = height;
 	  }
 	}
-    ```
+   ```
 </details>
 <details>
 	<summary>6</summary>
