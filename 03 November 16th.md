@@ -1,9 +1,11 @@
 # November 16th meeting
 
-Here are the materials for today! We'll explain what you need to do with the stuff below, so don't worry if some of it looks confusing
+Today's all about you playing around with code!
 
 ## Online Processing Editor
 [https://hello.processing.org/editor/#editor](https://hello.processing.org/editor/#editor)
+
+Processing is a free graphical library and integrated development environment, kind of like Eclipse but with more built-in graphics stuff. It's available as a full application (2D and 3D graphics!), as well as an online editor, which is what we'll be using but sadly only supports 2D.
 
 [![Processing Editor](https://imgur.com/uggxDeW.png)](https://hello.processing.org/editor/#editor)
 
@@ -22,7 +24,7 @@ void setup() {
 void draw() {
   background(51); //draws a background with an rgb color of (51, 51, 51)
   fill(255, 204); //(subsequent) shapes will have an rgb color of (255, 255, 255) and an alpha (opacity) value of 204
-  rect(mouseX, height/2, mouseY/2 + 10, mouseY/2 + 10); //draws a rectangle. mouseX, mouseY, width, and height are system variables
+  rect(mouseX, height/2, mouseY/2 + 10, mouseY/2 + 10); //draws a rectangle. mouseX, mouseY, width, and height are system variables (you can use them anywhere in your Processing code!)
   int inverseX = width - mouseX;
   int inverseY = height - mouseY;
   rect(inverseX, height/2, inverseY/2 + 10, inverseY/2 + 10);
