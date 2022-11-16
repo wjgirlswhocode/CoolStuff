@@ -9,6 +9,8 @@ Here are the materials for today! We'll explain what you need to do with the stu
 
 
 ## Demo code
+psst.. you can click the button at the top right of the code block below to copy the code to your clipboard!
+
 ```java
 //setup is called once when the program begins
 void setup() {
@@ -171,5 +173,5 @@ void draw() {
 </details>
 <details>
 	<summary>6</summary>
-	psst.. all of the code above was taken from [here](http://learningprocessing.com/examples/). We selected cool ones that you can understand from what you've learned so far, but there's some even cooler but really complicated stuff!
+	Hey! All of the code above was taken from [here](http://learningprocessing.com/examples/). We selected cool ones that you can understand from what you've learned so far, but there's some even cooler but really complicated stuff!
 </details>
