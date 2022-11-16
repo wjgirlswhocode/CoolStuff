@@ -59,8 +59,27 @@ void draw() {
 	fill(255, 0, 0, 63);
 	rect(0, 150, 480, 40);
 	```
+	
 </details>
+
 <details>
 	<summary>2</summary> 
 	hi
+</details>
+
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+  	console.log('Something', something);
+  }
+  ```
 </details>
