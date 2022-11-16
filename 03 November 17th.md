@@ -33,6 +33,7 @@ void draw() {
 ## More code to try :)
 <details>
 	<summary>1</summary>
+	
 	```java
 	size(480, 270);
 	background(0);
