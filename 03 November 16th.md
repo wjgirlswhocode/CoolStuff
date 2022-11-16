@@ -178,5 +178,6 @@ void draw() {
 	<p>For example, check out 14-17 Nested Push Pop</p>
 	<a id="nested" href="#nested"><img alt="nested" src="https://imgur.com/6wGUpqC.gif" /></a>
 </details>
+
 ## Challenge
 Make a square and if you click inside of it, the square changes to one color and if you click outside of it, it changes to another color
