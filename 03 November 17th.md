@@ -61,12 +61,19 @@ void draw() {
 	```
 	
 </details>
-
 <details>
 	<summary>2</summary> 
 	hi
 </details>
+<details>
+  <summary>Click me</summary>
 
+  ```js
+  function logSomething(something) {
+  	console.log('Something', something);
+  }
+  ```
+</details>
 <details>
   <summary>Click me</summary>
 
